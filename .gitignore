@@ -1,0 +1,28 @@
+# File text (*.txt) diabaikan (misalnya farm.txt)
+*.txt
+
+# Catatan: Jika ingin requirement.txt tetap di-track oleh git, uncomment baris di bawah:
+# !requirement.txt
+# !requirements.txt
+
+# Log files
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+env/
+
+# Environment variables & secrets
+.env
+
+# System & IDE
+.DS_Store
+.vscode/
+.idea/
